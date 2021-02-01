@@ -1,0 +1,29 @@
+Script started on Sat 30 Jan 2021 08:46:31 PM PST
+]0;gam39155@ssh: ~[01;32mgam39155@ssh[00m:[01;34m~[00m$ java c[KChecksum < 156.txt
+Stored Checksum: 156, Computed Checksum: 156
+]0;gam39155@ssh: ~[01;32mgam39155@ssh[00m:[01;34m~[00m$ pushd ~steve/comp122/checksumf[K
+/home/users0/ccs/steve/comp122/checksum ~
+]0;gam39155@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mgam39155@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ time java C[Kchecksum < 156.t xt
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.161s
+user	0m0.124s
+sys	0m0.028s
+]0;gam39155@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mgam39155@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ time ./checksum< [K[K < 156.td[Kxt
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+]0;gam39155@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mgam39155@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ popd
+~
+]0;gam39155@ssh: ~[01;32mgam39155@ssh[00m:[01;34m~[00m$ time java Checksum < 156.txt
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.148s
+user	0m0.100s
+sys	0m0.040s
+]0;gam39155@ssh: ~[01;32mgam39155@ssh[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Sat 30 Jan 2021 08:50:23 PM PST
